@@ -344,7 +344,7 @@ nav.tabs a[aria-current="page"] { color: var(--gold); }
         </select>
       </div>
       <div class="fine">
-        <p>Masjid cards show the iqamah (congregation) times each masjid posts on its website. When a masjid doesn't post them, the card shows the calculated adhan time for its location in grey. Shia centers without posted times use the Jafari method.</p>
+        <p>The countdown and today's times use your GPS location, checked each time you open the app (or your ZIP if location is off). Masjid cards show the iqamah (congregation) times each masjid posts on its website. When a masjid doesn't post them, the card shows the calculated adhan time for its location in grey. Shia centers without posted times use the Jafari method.</p>
         <p id="dataNote"></p>
       </div>
     </div>
@@ -468,7 +468,7 @@ function computeHero() {
   todayPT = calc(loc.lat, loc.lng, chicagoDate(0), prefs.method, prefs.madhab);
   tomorrowPT = calc(loc.lat, loc.lng, chicagoDate(1), prefs.method, prefs.madhab);
   $("todayLabel").textContent = new Date().toLocaleDateString("en-US", { timeZone: TZ, weekday: "short", month: "short", day: "numeric" });
-  $("heroNote").textContent = todayPT ? (hasLoc() ? "Adhan times for your location" : "Adhan times for downtown Chicago — tap the compass to use your location") : "Prayer-time library didn't load. Check your connection and reload.";
+  $("heroNote").textContent = todayPT ? (hasLoc() ? (loc.src === "gps" ? "Adhan times for your current location" : "Adhan times for " + (loc.label || "your location")) : "Adhan times for downtown Chicago — allow location or set a ZIP in Settings") : "Prayer-time library didn't load. Check your connection and reload.";
   renderStrip();
 }
 function currentKey() {
@@ -625,15 +625,20 @@ function nearestTown(lat, lng) {
   for (const z in ZIPS) { const [a, b, c] = ZIPS[z]; const d = (a - lat) ** 2 + (b - lng) ** 2; if (d < bd) { bd = d; best = c; } }
   return best;
 }
-function useGPS() {
+function useGPS(silent) {
   const msg = $("locMsg");
-  msg.className = "msg"; msg.textContent = "Finding you…";
-  if (!navigator.geolocation) { gpsFail(); return; }
+  if (!silent) { msg.className = "msg"; msg.textContent = "Finding you…"; }
+  if (!navigator.geolocation) { if (!silent) gpsFail(); return; }
   try {
     navigator.geolocation.getCurrentPosition(
-      p => { const lat = p.coords.latitude, lng = p.coords.longitude; const t = nearestTown(lat, lng); setLoc({ lat, lng, label: t ? t + " (GPS)" : "My location", src: "gps" }); msg.textContent = "Using your GPS location."; },
-      () => gpsFail(), { timeout: 9000, maximumAge: 600000 });
-  } catch { gpsFail(); }
+      p => {
+        const lat = p.coords.latitude, lng = p.coords.longitude; const t = nearestTown(lat, lng);
+        setLoc({ lat, lng, label: t ? t + " (GPS)" : "My location", src: "gps", at: Date.now() });
+        msg.className = "msg"; msg.textContent = "Using your GPS location. It refreshes every time you open the app.";
+      },
+      () => { if (!silent) gpsFail(); },
+      { timeout: silent ? 15000 : 9000, maximumAge: silent ? 300000 : 0, enableHighAccuracy: false });
+  } catch { if (!silent) gpsFail(); }
 }
 function gpsFail() {
   location.hash = "#prefs";
@@ -669,7 +674,7 @@ function initPrefsUI() {
   $("modeSect").onclick = () => { state.mode = "sect"; renderList(); };
   $("modeNear").onclick = () => { state.mode = "near"; renderList(); };
   $("q").oninput = e => { state.q = e.target.value; renderList(); };
-  $("gpsBtn").onclick = useGPS; $("gpsBtn2").onclick = useGPS;
+  $("gpsBtn").onclick = () => useGPS(false); $("gpsBtn2").onclick = () => useGPS(false);
   $("locLabel").onclick = () => { location.hash = "#prefs"; };
   $("zipBtn").onclick = useZip; $("zip").onkeydown = e => { if (e.key === "Enter") useZip(); };
 }
@@ -698,6 +703,8 @@ initPrefsUI(); renderAyah(); computeHero(); route();
 window.addEventListener("hashchange", route);
 setInterval(tick, 1000); tick();
 load();
+useGPS(true);
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") useGPS(true); });
 })();
 </script>
 </body>
