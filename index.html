@@ -94,8 +94,16 @@ a { color: var(--gold); }
 .pt svg { width: 18px; height: 18px; color: var(--muted); }
 .pt .n { font-size: 12px; color: var(--muted); }
 .pt .t { font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; }
-.pt.now { background: var(--gold-soft); border-color: var(--gold); }
-.pt.now svg, .pt.now .n, .pt.now .t { color: var(--gold); }
+.pt { position: relative; }
+.pt.now { background: var(--gold); border-color: var(--gold); transform: translateY(-2px); box-shadow: 0 6px 18px rgba(233, 182, 40, 0.28); }
+.pt.now svg, .pt.now .n, .pt.now .t { color: #1a1405; }
+.pt.now .n { font-weight: 600; }
+.pt.now::after { content: "NOW"; position: absolute; top: -8px; left: 50%; transform: translateX(-50%); background: #1a1405; color: var(--gold); font-size: 9px; font-weight: 700; letter-spacing: 1px; padding: 2px 7px; border-radius: 999px; border: 1px solid var(--gold); }
+.strip { padding-top: 8px; }
+.now-pill { margin-top: 14px; display: inline-flex; align-items: center; gap: 8px; background: var(--gold); color: #1a1405; border-radius: 999px; padding: 7px 14px 7px 10px; font-weight: 600; font-size: 14px; }
+.now-pill .dot { width: 8px; height: 8px; border-radius: 50%; background: #1a1405; animation: pulse 2s ease-in-out infinite; }
+.now-pill .since { font-weight: 400; opacity: .75; font-variant-numeric: tabular-nums; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
 
 /* Daily verse card */
 .card { background: var(--surface); border-radius: var(--radius); padding: 16px; }
@@ -196,7 +204,7 @@ nav.tabs a[aria-current="page"] { color: var(--gold); }
 .view[hidden] { display: none !important; }
 .view { display: flex; flex-direction: column; gap: 22px; }
 
-@media (prefers-reduced-motion: reduce) { .ring .arc { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .ring .arc { transition: none; } .now-pill .dot { animation: none; } }
 @media (max-width: 400px) {
   .ring { width: 210px; height: 210px; }
   .ring-inner .count { font-size: 34px; }
@@ -235,6 +243,7 @@ nav.tabs a[aria-current="page"] { color: var(--gold); }
           <div class="at" id="nextAt"></div>
         </div>
       </div>
+      <div class="now-pill" id="nowPill" aria-live="polite"></div>
       <div class="hero-note" id="heroNote"></div>
     </div>
 
@@ -476,6 +485,8 @@ function renderStrip() {
   $("strip").innerHTML = STRIP.map(([k, n]) =>
     `<div class="pt${k === cur ? " now" : ""}">${ICONS[k]}<div class="n">${n}</div><div class="t">${fmt(todayPT[k])}</div></div>`
   ).join("");
+  const el = $("strip").querySelector(".now");
+  if (el) { try { el.scrollIntoView({ inline: "center", block: "nearest" }); } catch {} }
 }
 function tick() {
   if (!todayPT) return;
@@ -491,6 +502,12 @@ function tick() {
   $("nextAt").textContent = fmt(next);
   const frac = Math.min(1, Math.max(0, (now - prev) / (next - prev)));
   $("arc").style.strokeDashoffset = String(666 * (1 - frac));
+  const cur = currentKey();
+  if (cur) {
+    const label = { fajr: "Fajr", sunrise: "After sunrise", dhuhr: "Dhuhr", asr: "Asr", maghrib: "Maghrib", isha: "Isha" }[cur];
+    const since = cur === "isha" && now < todayPT.fajr ? "" : fmt(todayPT[cur]);
+    $("nowPill").innerHTML = `<span class="dot"></span>${cur === "sunrise" ? label + " · no prayer until Dhuhr" : label + " time now"}${since ? ` <span class="since">· since ${since}</span>` : ""}`;
+  }
   if (s === 0) renderStrip();
   if (left < 1000) { computeHero(); renderAll(); }
 }
