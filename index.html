@@ -142,12 +142,22 @@ a { color: var(--gold); }
 .group-head .c { color: var(--muted); font-size: 13px; }
 .m { background: var(--surface); border-radius: var(--radius); padding: 14px 14px 12px; display: flex; flex-direction: column; gap: 10px; border-left: 3px solid var(--sect, var(--gold)); }
 .m-top { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+.m-top .right { display: flex; align-items: center; gap: 8px; flex: none; }
+.star { width: 34px; height: 34px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface-2); color: var(--muted); cursor: pointer; display: grid; place-items: center; padding: 0; }
+.star svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
+.star[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: #1a1405; }
+.star[aria-pressed="true"] svg { fill: currentColor; }
+.chip.fav[aria-pressed="true"], .group-head .bar.fav { background: var(--gold); }
+.chip .st { font-size: 12px; }
 .m h4 { margin: 0; font-size: 15.5px; font-weight: 600; text-wrap: balance; }
 .m .addr { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
 .m .dist { color: var(--gold); font-size: 12.5px; font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .tags { display: flex; gap: 6px; flex-wrap: wrap; }
 .tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
-.tag.sect { color: var(--sect); border-color: color-mix(in srgb, var(--sect) 45%, transparent); }
+.tag.sect { color: var(--sect); border-color: color-mix(in srgb, var(--sect) 45%, transparent); display: inline-flex; align-items: center; gap: 5px; }
+.tag.sect svg { width: 13px; height: 13px; }
+.tag.sect.verified { border-color: var(--sect); background: color-mix(in srgb, var(--sect) 12%, transparent); }
+.tag.unverified { border-style: dashed; }
 .times { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
 .tm { background: var(--surface-2); border-radius: 10px; padding: 7px 4px; text-align: center; border: 1px solid transparent; }
 .tm .n { font-size: 10.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; }
@@ -253,6 +263,14 @@ nav.tabs a[aria-current="page"] { color: var(--gold); }
     </div>
     <div class="strip" id="strip"></div>
 
+    <div id="favHome" hidden>
+      <div class="sec-head" style="margin-bottom: 12px">
+        <h2>Your masjids</h2>
+        <a class="aside" href="#masjids">Edit</a>
+      </div>
+      <div class="group" id="favList"></div>
+    </div>
+
     <div class="sec-head">
       <h2>Closest masjids</h2>
       <a class="aside" href="#masjids">All masjids</a>
@@ -344,6 +362,7 @@ nav.tabs a[aria-current="page"] { color: var(--gold); }
         </select>
       </div>
       <div class="fine">
+        <p>A ✓ on the sect label means the masjid's own website or materials confirm it. "Sect unconfirmed" means it came from directories only; the weekly check keeps confirming more.</p>
         <p>The countdown and today's times use your GPS location, checked each time you open the app (or your ZIP if location is off). Masjid cards show the iqamah (congregation) times each masjid posts on its website. When a masjid doesn't post them, the card shows the calculated adhan time for its location in grey. Shia centers without posted times use the Jafari method.</p>
         <p id="dataNote"></p>
       </div>
@@ -383,6 +402,12 @@ const prefs = Object.assign({ mode: "sect", sect: "All", method: "NorthAmerica",
 let loc = store.get("loc", null) || DEFAULT_LOC;
 let state = { mode: prefs.mode, sect: prefs.sect, q: "", jsect: "All" };
 let DATA = { updated: "", mosques: [] };
+let favs = new Set(store.get("favs", []));
+const mid = (m) => m.name + "|" + m.city;
+const isFav = (m) => favs.has(mid(m));
+function toggleFav(id) { favs.has(id) ? favs.delete(id) : favs.add(id); store.set("favs", [...favs]); renderAll(); }
+document.addEventListener("click", (e) => { const b = e.target.closest(".star"); if (b) { e.preventDefault(); toggleFav(b.dataset.id); } });
+const STAR = '<svg viewBox="0 0 24 24"><path d="m12 3 2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.4 6.3 20.5l1.2-6.4L2.8 9.7l6.4-.8z"/></svg>';
 
 // ---------- time helpers ----------
 const fmt = (d) => d ? d.toLocaleTimeString("en-US", { timeZone: TZ, hour: "numeric", minute: "2-digit" }) : "";
@@ -530,6 +555,7 @@ function enrich(m) {
   return { cells, nextIdx, anyPosted: cells.some(c => c.posted) };
 }
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const CHECK = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5 14.4 4.6l3.2-.3.7 3.1 2.8 1.6-1.4 2.9 1.4 2.9-2.8 1.6-.7 3.1-3.2-.3L12 21.5l-2.4-2.1-3.2.3-.7-3.1-2.8-1.6 1.4-2.9-1.4-2.9 2.8-1.6.7-3.1 3.2.3z"/><path d="m8.5 12.2 2.3 2.3 4.8-5" fill="none" stroke="#1a1405" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const ext = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M7 17 17 7M9 7h8v8"/></svg>';
 function shortDate(s) { if (!s) return ""; const d = new Date(s + "T12:00:00"); return isNaN(d) ? s : d.toLocaleDateString("en-US", { month: "short", day: "numeric" }); }
 function isStale(s) { if (!s) return false; return (Date.now() - new Date(s + "T12:00:00")) / 86400000 > 10; }
@@ -538,7 +564,8 @@ function dirUrl(m) { return "https://www.google.com/maps/dir/?api=1&destination=
 function card(m) {
   const e = enrich(m);
   const sectVar = SECT_VAR[m.sect] || "--other";
-  const d = hasLoc() ? `<span class="dist">${m._dist < 10 ? m._dist.toFixed(1) : Math.round(m._dist)} mi</span>` : "";
+  const d = (hasLoc() ? `<span class="dist">${m._dist < 10 ? m._dist.toFixed(1) : Math.round(m._dist)} mi</span>` : "") +
+    `<button type="button" class="star" data-id="${esc(mid(m))}" aria-pressed="${isFav(m)}" aria-label="${isFav(m) ? "Remove from" : "Add to"} your masjids" title="${isFav(m) ? "Unstar" : "Star"}">${STAR}</button>`;
   const jum = (m.jumuah || []).filter(Boolean);
   const src = e.anyPosted
     ? `<span class="src${isStale(m.times_checked) ? " stale" : ""}">Iqamah from masjid website${m.times_checked ? " · checked " + shortDate(m.times_checked) : ""}${isStale(m.times_checked) ? " · may be outdated" : ""}</span>`
@@ -551,9 +578,9 @@ function card(m) {
   return `<article class="m" style="--sect: var(${sectVar})">
     <div class="m-top">
       <div><h4>${esc(m.name)}</h4><div class="addr">${esc(m.address)}, ${esc(m.city)}${m.state && m.state !== "IL" ? ", " + esc(m.state) : ""}</div></div>
-      ${d}
+      <div class="right">${d}</div>
     </div>
-    <div class="tags"><span class="tag sect">${esc(m.sect)}</span>${m.tradition ? `<span class="tag">${esc(m.tradition)}</span>` : ""}</div>
+    <div class="tags"><span class="tag sect${m.sect_verified ? " verified" : ""}" title="${m.sect_verified ? "Sect confirmed from the masjid's own website or materials" : "Sect from directories, not yet confirmed by the masjid itself"}">${m.sect_verified ? CHECK : ""}${esc(m.sect)}</span>${m.tradition ? `<span class="tag">${esc(m.tradition)}</span>` : ""}${m.sect_verified ? "" : `<span class="tag unverified">sect unconfirmed</span>`}</div>
     <div class="times">${e.cells.map((c, i) => `<div class="tm${i === e.nextIdx ? " next" : ""}"><div class="n">${c.n}</div><div class="v${c.posted ? "" : " calc"}">${esc(c.label.replace(/\s?[AP]M$/i, ""))}</div></div>`).join("")}</div>
     ${jum.length ? `<div class="jum"><b>Jumu'ah</b> &nbsp;${jum.map(esc).join(" · ")}</div>` : ""}
     <div class="m-foot">${src}<div class="links">${links}</div></div>
@@ -562,7 +589,7 @@ function card(m) {
 
 function filtered(sect, q) {
   q = (q || "").toLowerCase().trim();
-  return DATA.mosques.filter(m => (sect === "All" || m.sect === sect) &&
+  return DATA.mosques.filter(m => (sect === "All" || (sect === "Favorites" ? isFav(m) : m.sect === sect)) &&
     (!q || [m.name, m.city, m.tradition, m.address, m.zip].join(" ").toLowerCase().includes(q)));
 }
 function withDist(arr) { arr.forEach(m => m._dist = miles(loc, m)); return arr; }
@@ -571,8 +598,9 @@ const byDist = (a, b) => a._dist - b._dist;
 
 function renderChips(elId, current, onPick) {
   const counts = {}; DATA.mosques.forEach(m => counts[m.sect] = (counts[m.sect] || 0) + 1);
-  const opts = ["All", ...SECTS.filter(s => counts[s])];
-  $(elId).innerHTML = opts.map(s => `<button type="button" class="chip" data-s="${esc(s)}" aria-pressed="${s === current}">${s !== "All" ? `<span class="dot" style="background: var(${SECT_VAR[s]})"></span>` : ""}${esc(s)} <span class="c">${s === "All" ? DATA.mosques.length : counts[s]}</span></button>`).join("");
+  const nFav = DATA.mosques.filter(isFav).length;
+  const opts = ["All", ...(nFav ? ["Favorites"] : []), ...SECTS.filter(s => counts[s])];
+  $(elId).innerHTML = opts.map(s => `<button type="button" class="chip${s === "Favorites" ? " fav" : ""}" data-s="${esc(s)}" aria-pressed="${s === current}">${s === "Favorites" ? '<span class="st">★</span>' : s !== "All" ? `<span class="dot" style="background: var(${SECT_VAR[s]})"></span>` : ""}${esc(s)} <span class="c">${s === "All" ? DATA.mosques.length : s === "Favorites" ? nFav : counts[s]}</span></button>`).join("");
   $(elId).querySelectorAll(".chip").forEach(b => b.onclick = () => onPick(b.dataset.s));
 }
 
@@ -582,12 +610,16 @@ function renderList() {
   renderChips("sectChips", state.sect, s => { state.sect = s; renderList(); });
   const arr = withDist(filtered(state.sect, state.q));
   const sorter = hasLoc() ? byDist : byName;
-  if (!arr.length) { $("list").innerHTML = `<div class="empty">No masjids match “${esc(state.q)}”.</div>`; return; }
+  if (!arr.length) { $("list").innerHTML = `<div class="empty">${state.sect === "Favorites" ? "Tap the star on any masjid to add it here." : `No masjids match “${esc(state.q)}”.`}</div>`; return; }
   if (state.mode === "near") {
     const note = hasLoc() ? "" : `<div class="empty">Set your location (compass button or Settings) to sort by distance. Showing distance from downtown Chicago.</div>`;
-    $("list").innerHTML = note + arr.sort(byDist).map(card).join("");
+    arr.sort(byDist);
+    const f = arr.filter(isFav), rest = arr.filter(m => !isFav(m));
+    $("list").innerHTML = note + (f.length && state.sect !== "Favorites" ? `<div class="group-head"><span class="bar fav"></span><h3>Your masjids</h3><span class="c">${f.length}</span></div>` + f.map(card).join("") + `<div class="group-head"><h3>Everything else</h3></div>` : "") + (state.sect === "Favorites" ? arr : rest).map(card).join("");
   } else {
-    $("list").innerHTML = SECTS.map(s => {
+    const f = arr.filter(isFav).sort(sorter);
+    const favBlock = f.length && state.sect !== "Favorites" ? `<div class="group-head"><span class="bar fav"></span><h3>Your masjids</h3><span class="c">${f.length}</span></div>` + f.map(card).join("") : "";
+    $("list").innerHTML = favBlock + SECTS.map(s => {
       const g = arr.filter(m => m.sect === s).sort(sorter);
       if (!g.length) return "";
       return `<div class="group-head"><span class="bar" style="background: var(${SECT_VAR[s]})"></span><h3>${esc(s)}</h3><span class="c">${g.length}</span></div>` + g.map(card).join("");
@@ -595,6 +627,11 @@ function renderList() {
   }
 }
 
+function renderFavs() {
+  const arr = withDist(DATA.mosques.filter(isFav)).sort(hasLoc() ? byDist : byName);
+  $("favHome").hidden = !arr.length;
+  $("favList").innerHTML = arr.map(card).join("");
+}
 function renderNear() {
   const arr = withDist(DATA.mosques.slice()).sort(byDist).slice(0, 3);
   $("nearList").innerHTML = arr.length ? arr.map(card).join("") : `<div class="empty">Loading masjids…</div>`;
@@ -606,16 +643,16 @@ function renderJumuah() {
   const now = chicagoDate(0); const add = (5 - now.getDay() + 7) % 7;
   const fri = chicagoDate(add);
   $("friLabel").textContent = (add === 0 ? "Today · " : "") + fri.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
-  const arr = withDist(filtered(state.jsect, "")).filter(m => (m.jumuah || []).filter(Boolean).length).sort(hasLoc() ? byDist : (a, b) => parseJ(a.jumuah[0]) - parseJ(b.jumuah[0]));
+  const arr = withDist(filtered(state.jsect, "")).filter(m => (m.jumuah || []).filter(Boolean).length).sort((a, b) => (isFav(b) - isFav(a)) || (hasLoc() ? byDist(a, b) : parseJ(a.jumuah[0]) - parseJ(b.jumuah[0])));
   $("jumList").innerHTML = arr.length ? arr.map(m => `<div class="jrow" style="--sect: var(${SECT_VAR[m.sect] || "--other"})">
-      <div><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.city)}${hasLoc() ? " · " + (m._dist < 10 ? m._dist.toFixed(1) : Math.round(m._dist)) + " mi" : ""}</div></div>
+      <div><div class="name">${isFav(m) ? "★ " : ""}${esc(m.name)}</div><div class="sub">${esc(m.city)}${hasLoc() ? " · " + (m._dist < 10 ? m._dist.toFixed(1) : Math.round(m._dist)) + " mi" : ""}</div></div>
       <div class="jt">${m.jumuah.filter(Boolean).map(t => `<span>${esc(t)}</span>`).join("")}</div></div>`).join("")
     : `<div class="empty">No Jumu'ah times posted for this filter.</div>`;
 }
 
 function renderAll() {
   $("locLabel").textContent = loc.label || "Your location";
-  renderNear(); renderList(); renderJumuah();
+  renderFavs(); renderNear(); renderList(); renderJumuah();
 }
 
 // ---------- location ----------
@@ -680,9 +717,9 @@ function initPrefsUI() {
 }
 function fillSectSelect() {
   const present = SECTS.filter(s => DATA.mosques.some(m => m.sect === s));
-  $("defSect").innerHTML = ["All", ...present].map(s => `<option value="${esc(s)}">${s === "All" ? "All sects" : esc(s)}</option>`).join("");
-  $("defSect").value = present.includes(prefs.sect) ? prefs.sect : "All";
-  if (!present.includes(state.sect)) state.sect = "All";
+  $("defSect").innerHTML = ["All", "Favorites", ...present].map(s => `<option value="${esc(s)}">${s === "All" ? "All sects" : s === "Favorites" ? "★ Your masjids only" : esc(s)}</option>`).join("");
+  $("defSect").value = [...present, "Favorites"].includes(prefs.sect) ? prefs.sect : "All";
+  if (![...present, "Favorites"].includes(state.sect)) state.sect = "All";
 }
 
 async function load() {
@@ -695,7 +732,8 @@ async function load() {
     return;
   }
   const withTimes = DATA.mosques.filter(m => m.iqamah && Object.values(m.iqamah).some(Boolean)).length;
-  $("dataNote").textContent = `${DATA.mosques.length} masjids · ${withTimes} with posted iqamah times · list last refreshed ${shortDate(DATA.updated)}${DATA.updated ? ", " + DATA.updated.slice(0, 4) : ""}. Refreshed weekly from each masjid's website.`;
+  const verified = DATA.mosques.filter(m => m.sect_verified).length;
+  $("dataNote").textContent = `${DATA.mosques.length} masjids · ${withTimes} with posted iqamah times · ${verified} with confirmed sect · list last refreshed ${shortDate(DATA.updated)}${DATA.updated ? ", " + DATA.updated.slice(0, 4) : ""}. Refreshed weekly from each masjid's website.`;
   fillSectSelect(); renderAll();
 }
 

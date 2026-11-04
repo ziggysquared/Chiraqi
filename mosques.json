@@ -24,7 +24,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Bronzeville; historic 1922 Ahmadiyya mosque (Chicago East chapter). No times found"
+   "notes": "Bronzeville; historic 1922 Ahmadiyya mosque (Chicago East chapter). No times found",
+   "sect_verified": true
   },
   {
    "name": "Fath-e-Azeem Mosque (Ahmadiyya Muslim Community Zion)",
@@ -49,7 +50,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Ahmadiyya Muslim Community; older Zion listing at 2103 Gabriel Ave. No times found."
+   "notes": "Ahmadiyya Muslim Community; older Zion listing at 2103 Gabriel Ave. No times found.",
+   "sect_verified": true
   },
   {
    "name": "Masjid Baitul Jaamay (Ahmadiyya Muslim Community)",
@@ -74,7 +76,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Opened 2003; Chicago-area Ahmadiyya center, on Rt 53 one block north of Butterfield Rd. No times found."
+   "notes": "Opened 2003; Chicago-area Ahmadiyya center, on Rt 53 one block north of Butterfield Rd. No times found.",
+   "sect_verified": true
   },
   {
    "name": "Mosque Maryam",
@@ -99,7 +102,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "South Shore; Nation of Islam national headquarters (Muhammad Mosque No. 2). No prayer times posted"
+   "notes": "South Shore; Nation of Islam national headquarters (Muhammad Mosque No. 2). No prayer times posted",
+   "sect_verified": true
   },
   {
    "name": "Mahdavia Islamic Center of Chicago (MICC)",
@@ -126,7 +130,8 @@
     "1:15 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Nov 2026 Masjidal/AthanPlus table linked from miccusa.org prayer-timings page."
+   "notes": "Nov 2026 Masjidal/AthanPlus table linked from miccusa.org prayer-timings page.",
+   "sect_verified": true
   },
   {
    "name": "Ahlul Bait Center",
@@ -151,7 +156,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Shia (Jafari) center, mostly Iraqi community, per Zabihah; separate women's room. Current status/times unverified."
+   "notes": "Shia (Jafari) center, mostly Iraqi community, per Zabihah; separate women's room. Current status/times unverified.",
+   "sect_verified": false
   },
   {
    "name": "Ali Yun Wali Allah Shia Islamic Center",
@@ -176,7 +182,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Shia (Jafari). Older listings show 1550 E Higgins Rd Suite 128, Elk Grove Village - appears to have moved to Schaumburg; verify. No times found."
+   "notes": "Shia (Jafari). Older listings show 1550 E Higgins Rd Suite 128, Elk Grove Village - appears to have moved to Schaumburg; verify. No times found.",
+   "sect_verified": false
   },
   {
    "name": "Anjuman-e-Saifee Chicago (Dawoodi Bohra Masjid)",
@@ -201,7 +208,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Site posts salaat start times only (on 2026-11-03: Fajr begins 5:42 AM, Zawaal 11:36 AM, Maghrib 4:44 PM), not iqamah. Email chicago@thedawoodibohras.com. Coordinates approximate."
+   "notes": "Site posts salaat start times only (on 2026-11-03: Fajr begins 5:42 AM, Zawaal 11:36 AM, Maghrib 4:44 PM), not iqamah. Email chicago@thedawoodibohras.com. Coordinates approximate.",
+   "sect_verified": true
   },
   {
    "name": "Baitul Ilm (Masjid Bait-ul-Ilm)",
@@ -226,7 +234,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Shia (Jafari) center; Zabihah: daily Maghrib/Isha congregation Mon-Fri, Friday prayer, Thursday night program. No times found."
+   "notes": "Shia (Jafari) center; Zabihah: daily Maghrib/Isha congregation Mon-Fri, Friday prayer, Thursday night program. No times found.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Education Center (IEC) - Husaini Association of Greater Chicago",
@@ -253,7 +262,8 @@
     "12:00 PM"
    ],
    "times_checked": "",
-   "notes": "Also listed as 2N121 Goodrich Ave. Custodian appointed by Ay. Sistani (IMAM-US). Site not fetchable; no times found. Coordinates approximate. Site shows calculated times only; no iqamah."
+   "notes": "Also listed as 2N121 Goodrich Ave. Custodian appointed by Ay. Sistani (IMAM-US). Site not fetchable; no times found. Coordinates approximate. Site shows calculated times only; no iqamah.",
+   "sect_verified": true
   },
   {
    "name": "Ismaili Jamatkhana, Glenview",
@@ -278,7 +288,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Opened Dec 2008 on 9.3 acres on Shermer Rd just north of Golf Rd; street number not found. Jamatkhana prayer schedule not published."
+   "notes": "Opened Dec 2008 on 9.3 acres on Shermer Rd just north of Golf Rd; street number not found. Jamatkhana prayer schedule not published.",
+   "sect_verified": true
   },
   {
    "name": "Ismaili Jamatkhana, Naperville",
@@ -303,7 +314,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Opened 2010, off Route 59 near Diehl Rd. Street number from a HalalTrip listing (not fully certain). Coordinates approximate."
+   "notes": "Opened 2010, off Route 59 near Diehl Rd. Street number from a HalalTrip listing (not fully certain). Coordinates approximate.",
+   "sect_verified": true
   },
   {
    "name": "MASOM (Midwest Association of Shia Organized Muslims)",
@@ -328,7 +340,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Albany Park/Mayfair; site not reachable, no times"
+   "notes": "Albany Park/Mayfair; site not reachable, no times",
+   "sect_verified": true
   },
   {
    "name": "Sacred Learning Center",
@@ -353,7 +366,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Sacred Learning NFP (founded by Shaykh Rizwan Arastu, a Shia scholar); Zabihah lists it as Sunni - verify sect. Opened ~2017 on former Myron & Phil's site. Women's separate room. No times found."
+   "notes": "Sacred Learning NFP (founded by Shaykh Rizwan Arastu, a Shia scholar); Zabihah lists it as Sunni - verify sect. Opened ~2017 on former Myron & Phil's site. Women's separate room. No times found.",
+   "sect_verified": false
   },
   {
    "name": "Al Hira Community Center",
@@ -378,7 +392,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Iqamah not found online (listing shows adhan only)."
+   "notes": "Iqamah not found online (listing shows adhan only).",
+   "sect_verified": false
   },
   {
    "name": "Al-Ansar Mosque",
@@ -403,7 +418,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Chicago Lawn/Marquette Park; PraySalat listing only, no times"
+   "notes": "Chicago Lawn/Marquette Park; PraySalat listing only, no times",
+   "sect_verified": false
   },
   {
    "name": "Al-Aqsa Community Center",
@@ -431,7 +447,8 @@
     "1:05 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "accplainfield.org redirects to plainfieldmasjid.com (17940 S Bronk Rd); homepage iqamah table, Nov 2026 PDF linked. Website could be updated to plainfieldmasjid.com."
+   "notes": "accplainfield.org redirects to plainfieldmasjid.com (17940 S Bronk Rd); homepage iqamah table, Nov 2026 PDF linked. Website could be updated to plainfieldmasjid.com.",
+   "sect_verified": true
   },
   {
    "name": "Al-Azhar Islamic Foundation",
@@ -458,7 +475,8 @@
     "1:15 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Own site weekly iqamah table dated Nov 3-9 2026; Jumuah khutbah 1:15 PM."
+   "notes": "Own site weekly iqamah table dated Nov 3-9 2026; Jumuah khutbah 1:15 PM.",
+   "sect_verified": true
   },
   {
    "name": "Al-Haq Masjid",
@@ -483,7 +501,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "No times found."
+   "notes": "No times found.",
+   "sect_verified": false
   },
   {
    "name": "Al-Madina Islamic Center",
@@ -508,7 +527,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Rogers Park; from CIOGC/Yellow Pages listings, not verified recently"
+   "notes": "Rogers Park; from CIOGC/Yellow Pages listings, not verified recently",
+   "sect_verified": false
   },
   {
    "name": "Al-Nahda Center",
@@ -536,7 +556,8 @@
     "1:30 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Iqamah from Masjid App listing; pinned posts there conflict (Isha 7:30 PM; Jumu'ah listed both as 2:00 PM and as 12:00/1:30). Verify."
+   "notes": "Iqamah from Masjid App listing; pinned posts there conflict (Isha 7:30 PM; Jumu'ah listed both as 2:00 PM and as 12:00/1:30). Verify.",
+   "sect_verified": true
   },
   {
    "name": "Al-Salam Mosque Foundation",
@@ -561,7 +582,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Chicago Lawn; Zabihah listing only, no times"
+   "notes": "Chicago Lawn; Zabihah listing only, no times",
+   "sect_verified": false
   },
   {
    "name": "Albanian American Islamic Center",
@@ -588,7 +610,8 @@
     "1:00 PM"
    ],
    "times_checked": "",
-   "notes": "Jumu'ah khutbah in Albanian & English; reviewers say hours are limited. Just outside listed towns (Berkeley, west Cook)."
+   "notes": "Jumu'ah khutbah in Albanian & English; reviewers say hours are limited. Just outside listed towns (Berkeley, west Cook).",
+   "sect_verified": false
   },
   {
    "name": "American Islamic Association",
@@ -613,7 +636,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Iqamah not found online (listing shows adhan only)."
+   "notes": "Iqamah not found online (listing shows adhan only).",
+   "sect_verified": false
   },
   {
    "name": "American Muslim Community Organization (AMCO)",
@@ -641,7 +665,8 @@
     "2:30 PM"
    ],
    "times_checked": "",
-   "notes": "~800 households; daily prayers, Jumuah, Sunday school. Zabihah gives 108 S Lakewood Rd. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify."
+   "notes": "~800 households; daily prayers, Jumuah, Sunday school. Zabihah gives 108 S Lakewood Rd. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify.",
+   "sect_verified": false
   },
   {
    "name": "Batavia Islamic Center",
@@ -666,7 +691,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Iqamah not found online (listing shows adhan only)."
+   "notes": "Iqamah not found online (listing shows adhan only).",
+   "sect_verified": false
   },
   {
    "name": "Bosnian Islamic Cultural Center (BECCA)",
@@ -691,7 +717,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "West Rogers Park; Bosnian Educational and Cultural Center of America, fundraising to move to Lincolnwood. No times found"
+   "notes": "West Rogers Park; Bosnian Educational and Cultural Center of America, fundraising to move to Lincolnwood. No times found",
+   "sect_verified": false
   },
   {
    "name": "CCC Musallah",
@@ -716,7 +743,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Near South Side; Zabihah listing with no details, low confidence"
+   "notes": "Near South Side; Zabihah listing with no details, low confidence",
+   "sect_verified": false
   },
   {
    "name": "Chicago Central Mosque & Islamic Center",
@@ -741,7 +769,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Irving Park/Albany Park; iqamah not posted. Zabihah also lists Chicago Central Mosque at 4053 N Monticello Ave (nearby, possibly same congregation)"
+   "notes": "Irving Park/Albany Park; iqamah not posted. Zabihah also lists Chicago Central Mosque at 4053 N Monticello Ave (nearby, possibly same congregation)",
+   "sect_verified": false
   },
   {
    "name": "Chicago Islamic Center (Al-Nahda Center)",
@@ -768,7 +797,8 @@
     "2:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Claimed TheMasjidApp listing, Nov 3 times 'updated yesterday' (own site has none); short dars 12:30 PM before Jumuah."
+   "notes": "Claimed TheMasjidApp listing, Nov 3 times 'updated yesterday' (own site has none); short dars 12:30 PM before Jumuah.",
+   "sect_verified": true
   },
   {
    "name": "Chicago Mosque",
@@ -795,7 +825,8 @@
     "1:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Rahmat-e-Alam Foundation head office/masjid. Mohid daily times show Maghrib 5:49 PM - schedule outdated (Oct), omitted. Jumuah khutbah 1:00 PM, iqama 1:30 PM (location of Jumuah per Mohid: Western Ave)"
+   "notes": "Rahmat-e-Alam Foundation head office/masjid. Mohid daily times show Maghrib 5:49 PM - schedule outdated (Oct), omitted. Jumuah khutbah 1:00 PM, iqama 1:30 PM (location of Jumuah per Mohid: Western Ave)",
+   "sect_verified": true
   },
   {
    "name": "DDM Masjid & DDM Academy",
@@ -824,7 +855,8 @@
     "3:05 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Timetable page only has September 2026 schedule (image/PDF) - outdated; Jumuah khutbahs 1:05/2:05/3:05 PM (jamaat :40) from site."
+   "notes": "Timetable page only has September 2026 schedule (image/PDF) - outdated; Jumuah khutbahs 1:05/2:05/3:05 PM (jamaat :40) from site.",
+   "sect_verified": false
   },
   {
    "name": "Dar-Ut-Tawheed",
@@ -851,7 +883,8 @@
     "1:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Times via Kawthar (synced from Masjidal 11/3); Zabihah lists 6314 N Western"
+   "notes": "Times via Kawthar (synced from Masjidal 11/3); Zabihah lists 6314 N Western",
+   "sect_verified": true
   },
   {
    "name": "Dar-ul-Ilm Foundation",
@@ -876,7 +909,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Congregation formed 2019 (rented Triphahn Community Center). Proposed mosque sites: 1260 W Higgins Rd (2021) and 2360 Lakewood Blvd (courtesy review Dec 2022). Current address/operating status unverified."
+   "notes": "Congregation formed 2019 (rented Triphahn Community Center). Proposed mosque sites: 1260 W Higgins Rd (2021) and 2360 Lakewood Blvd (courtesy review Dec 2022). Current address/operating status unverified.",
+   "sect_verified": false
   },
   {
    "name": "Dar-us-Sunnah Masjid & Community Center",
@@ -903,7 +937,8 @@
     "1:15 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Nov 3 row of mosque's 2026 PDF calendar; Jumuah khutbah 1:15 PM per same PDF."
+   "notes": "Nov 3 row of mosque's 2026 PDF calendar; Jumuah khutbah 1:15 PM per same PDF.",
+   "sect_verified": true
   },
   {
    "name": "Darul Eiman (Quranic Educational Society)",
@@ -928,7 +963,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "West Ridge; Zabihah listing, no times"
+   "notes": "West Ridge; Zabihah listing, no times",
+   "sect_verified": false
   },
   {
    "name": "Downtown Islamic Center",
@@ -955,7 +991,8 @@
     "1:10 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Masjidbox page dated Nov 3 still shows Asr iqamah 5:00 PM (after 4:41 PM sunset), so the iqamah schedule is outdated and rejected."
+   "notes": "Masjidbox page dated Nov 3 still shows Asr iqamah 5:00 PM (after 4:41 PM sunset), so the iqamah schedule is outdated and rejected.",
+   "sect_verified": false
   },
   {
    "name": "Faizan-e-Madina Mount Prospect Islamic Cultural Center",
@@ -980,7 +1017,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Daily prayers and Jumuah per pray.zone; Faizan-e-Madina is the Dawat-e-Islami center name. No times found."
+   "notes": "Daily prayers and Jumuah per pray.zone; Faizan-e-Madina is the Dawat-e-Islami center name. No times found.",
+   "sect_verified": false
   },
   {
    "name": "Faizan-e-Madinah Chicago (Dawat-e-Islami)",
@@ -1009,7 +1047,8 @@
     "2:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Dawat-e-Islami center; Mohid times undated but appear current (CST). Dhuhr 2:00 PM as posted. Zabihah also lists Masjid e Faizan e Madeena at 6305 N Ridge Blvd (likely earlier site)"
+   "notes": "Dawat-e-Islami center; Mohid times undated but appear current (CST). Dhuhr 2:00 PM as posted. Zabihah also lists Masjid e Faizan e Madeena at 6305 N Ridge Blvd (likely earlier site)",
+   "sect_verified": true
   },
   {
    "name": "Fox Valley Muslim Community Center",
@@ -1034,7 +1073,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Coordinates estimated. Iqamah not found online (listing shows adhan only)."
+   "notes": "Coordinates estimated. Iqamah not found online (listing shows adhan only).",
+   "sect_verified": false
   },
   {
    "name": "Gary Muslim Center",
@@ -1062,7 +1102,8 @@
     "2:00 PM"
    ],
    "times_checked": "",
-   "notes": "Meals after Jumuah. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify."
+   "notes": "Meals after Jumuah. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify.",
+   "sect_verified": false
   },
   {
    "name": "Ghousia Islamic Center",
@@ -1087,7 +1128,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Also spelled Ghausia. No times found."
+   "notes": "Also spelled Ghausia. No times found.",
+   "sect_verified": false
   },
   {
    "name": "Haqqani Sufi Lodge",
@@ -1112,7 +1154,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Uptown; old CIOGC directory listing only, not verified recently"
+   "notes": "Uptown; old CIOGC directory listing only, not verified recently",
+   "sect_verified": false
   },
   {
    "name": "Hometown Mercy Mosque",
@@ -1137,7 +1180,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Community-maintained Masjid App listing only."
+   "notes": "Community-maintained Masjid App listing only.",
+   "sect_verified": false
   },
   {
    "name": "ICNA Dawah Center & Masjid",
@@ -1164,7 +1208,8 @@
     "1:45 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Mohid page shows daily times with Maghrib 5:43 PM (pre-DST, schedule outdated Oct) so omitted; Jumuah khutbah 1:15 PM, iqama 1:45 PM"
+   "notes": "Mohid page shows daily times with Maghrib 5:43 PM (pre-DST, schedule outdated Oct) so omitted; Jumuah khutbah 1:15 PM, iqama 1:45 PM",
+   "sect_verified": false
   },
   {
    "name": "IIT MSA Musalla (IIT Tower)",
@@ -1189,7 +1234,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Per IIT MSA site the musalla is in the IIT Tower basement (formerly listed at Farr Hall); open 24h, no times posted."
+   "notes": "Per IIT MSA site the musalla is in the IIT Tower basement (formerly listed at Farr Hall); open 24h, no times posted.",
+   "sect_verified": false
   },
   {
    "name": "Illiana Islamic Association (Highland Masjid)",
@@ -1217,7 +1263,8 @@
     "1:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Nov 2026 AthanPlus/Masjidal iqamah table (widget linked from highlandmasjid.org); Fajr/Asr/Maghrib iqamah shift daily."
+   "notes": "Nov 2026 AthanPlus/Masjidal iqamah table (widget linked from highlandmasjid.org); Fajr/Asr/Maghrib iqamah shift daily.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Center of Aurora - Masjid Hidayath",
@@ -1242,7 +1289,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Iqamah not found online (listing shows adhan only)."
+   "notes": "Iqamah not found online (listing shows adhan only).",
+   "sect_verified": false
   },
   {
    "name": "Islamic Center of Chicago (ICC) / At-Takaful Islamic Society",
@@ -1270,7 +1318,8 @@
     "2:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "West Ridge/North Park; daily iqamah not posted on site (\"not posted yet\"); Jumuah 1:30 & 2:00 PM"
+   "notes": "West Ridge/North Park; daily iqamah not posted on site (\"not posted yet\"); Jumuah 1:30 & 2:00 PM",
+   "sect_verified": false
   },
   {
    "name": "Islamic Center of Kane County (ICKC)",
@@ -1297,7 +1346,8 @@
     "1:45 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "AthanPlus November 2026 monthly table (linked from ickc.info), row for Tue Nov 3; Maghrib column shows a single time."
+   "notes": "AthanPlus November 2026 monthly table (linked from ickc.info), row for Tue Nov 3; Maghrib column shows a single time.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Center of McHenry County (ICMC)",
@@ -1324,7 +1374,8 @@
     "1:30 PM"
    ],
    "times_checked": "",
-   "notes": "Five daily prayers + Jumuah. Iqamah not posted on TheMasjidApp. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify."
+   "notes": "Five daily prayers + Jumuah. Iqamah not posted on TheMasjidApp. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify.",
+   "sect_verified": false
   },
   {
    "name": "Islamic Center of Naperville - 75th Street",
@@ -1352,7 +1403,8 @@
     "1:10 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "AthanPlus widget on icnmasjid.org/75th, dated Nov 3 2026; Fajr goes to 6:00 AM from Nov 8."
+   "notes": "AthanPlus widget on icnmasjid.org/75th, dated Nov 3 2026; Fajr goes to 6:00 AM from Nov 8.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Center of Naperville - Al-Hilal (Ogden Ave)",
@@ -1380,7 +1432,8 @@
     "1:20 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "ICN 2026 annual calendar iqamah block effective 11/1/26 (all ICN sites); Ogden Jumuah khutbahs per same calendar; site says Jumuah page updated weekly."
+   "notes": "ICN 2026 annual calendar iqamah block effective 11/1/26 (all ICN sites); Ogden Jumuah khutbahs per same calendar; site says Jumuah page updated weekly.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Center of Naperville - Masjid Al-Hidayah (Olesen)",
@@ -1407,7 +1460,8 @@
     "1:10 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "ICN 2026 calendar PDF iqamah schedule effective 11/1/26 (next change 11/8: Fajr 6:00, Asr 3:15); table is ICN-wide, not campus-specific; Olesen Jumuah 1:10 PM from same PDF."
+   "notes": "ICN 2026 calendar PDF iqamah schedule effective 11/1/26 (next change 11/8: Fajr 6:00, Asr 3:15); table is ICN-wide, not campus-specific; Olesen Jumuah 1:10 PM from same PDF.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Center of Naperville - Masjid An-Noor (248th Ave)",
@@ -1432,7 +1486,8 @@
    "maghrib_rule": "5 min after sunset",
    "jumuah": [],
    "times_checked": "2026-11-03",
-   "notes": "ICN-wide 2026 calendar iqamah schedule from Nov 1 (not location-specific; matches 75th St widget); 248 page has no widget, Jumuah times not posted."
+   "notes": "ICN-wide 2026 calendar iqamah schedule from Nov 1 (not location-specific; matches 75th St widget); 248 page has no widget, Jumuah times not posted.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Center of Oakbrook Terrace",
@@ -1457,7 +1512,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Zabihah lists Friday hours only (from 1:10 PM); confirm daily prayers. Women's room."
+   "notes": "Zabihah lists Friday hours only (from 1:10 PM); confirm daily prayers. Women's room.",
+   "sect_verified": false
   },
   {
    "name": "Islamic Center of Romeoville",
@@ -1485,7 +1541,8 @@
     "1:15 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Homepage iqamah box dated Tue Nov 03 2026 (Taleem ul Haq Foundation); Maghrib listed as 'Sunset'."
+   "notes": "Homepage iqamah box dated Tue Nov 03 2026 (Taleem ul Haq Foundation); Maghrib listed as 'Sunset'.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Center of Western Suburbs (ICWS)",
@@ -1514,7 +1571,8 @@
     "1:35 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Homepage 'For Today' + Nov 2026 PDF agree; Jumuah held offsite: Bartlett Community Center khutbahs 1:05 & 1:35 PM, ARC Center West Chicago khutbah 1:15 PM."
+   "notes": "Homepage 'For Today' + Nov 2026 PDF agree; Jumuah held offsite: Bartlett Community Center khutbahs 1:05 & 1:35 PM, ARC Center West Chicago khutbah 1:15 PM.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Center of Wheaton",
@@ -1542,7 +1600,8 @@
     "2:15 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Homepage widget dated Nov 3 2026; Jumuah table unlabeled (khutba col 1:05/2:15/3:45 PM, iqamah col 12/1/4 PM) - verify; Isha 8:00 PM as posted."
+   "notes": "Homepage widget dated Nov 3 2026; Jumuah table unlabeled (khutba col 1:05/2:15/3:45 PM, iqamah col 12/1/4 PM) - verify; Isha 8:00 PM as posted.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Community Center of Des Plaines (ICCD)",
@@ -1570,7 +1629,8 @@
     "2:15 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Times from ICCD Mohid page (no date shown; Maghrib 4:48 consistent with CST). 2nd khutbah printed as '02:15 AM' - assumed PM. Alt phone (773) 655-4832."
+   "notes": "Times from ICCD Mohid page (no date shown; Maghrib 4:48 consistent with CST). 2nd khutbah printed as '02:15 AM' - assumed PM. Alt phone (773) 655-4832.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Community Center of Elgin",
@@ -1595,7 +1655,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "2026-11-03",
-   "notes": "TheMasjidApp page dated Nov 3 shows Fajr iqamah 6:30 AM (after 6:25 AM sunrise) with Dhuhr 12:30/Asr 3:45/Isha 7:30, i.e. un-updated October iqamahs; rejected."
+   "notes": "TheMasjidApp page dated Nov 3 shows Fajr iqamah 6:30 AM (after 6:25 AM sunrise) with Dhuhr 12:30/Asr 3:45/Isha 7:30, i.e. un-updated October iqamahs; rejected.",
+   "sect_verified": false
   },
   {
    "name": "Islamic Community Center of Illinois (ICCI)",
@@ -1623,7 +1684,8 @@
     "1:30 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Times from AthanPlus widget on homepage; a separate monthly table on the page shows different times, confirm"
+   "notes": "Times from AthanPlus widget on homepage; a separate monthly table on the page shows different times, confirm",
+   "sect_verified": true
   },
   {
    "name": "Islamic Cultural Center of Greater Chicago",
@@ -1650,7 +1712,8 @@
     "1:15 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Homepage widget for Nov 3, 2026; Asr iqamah shows 00:00 placeholder; Jumuah khutbah 1:15 PM per widget but events list Friday prayer at 1:00 PM in Nov - verify."
+   "notes": "Homepage widget for Nov 3, 2026; Asr iqamah shows 00:00 placeholder; Jumuah khutbah 1:15 PM per widget but events list Friday prayer at 1:00 PM in Nov - verify.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Cultural Center of Lake County",
@@ -1675,7 +1738,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Storefront open for Jumuah per Zabihah (time not given); status unverified."
+   "notes": "Storefront open for Jumuah per Zabihah (time not given); status unverified.",
+   "sect_verified": false
   },
   {
    "name": "Islamic Foundation",
@@ -1703,7 +1767,8 @@
     "1:05 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "2026 PDF calendar has iqamah columns but they could not be read reliably; Jumu'ah times are adhan times (12:05 & 1:05) per Nov calendar. Asr per Hanafi in calendar."
+   "notes": "2026 PDF calendar has iqamah columns but they could not be read reliably; Jumu'ah times are adhan times (12:05 & 1:05) per Nov calendar. Asr per Hanafi in calendar.",
+   "sect_verified": false
   },
   {
    "name": "Islamic Foundation North (IFN)",
@@ -1731,7 +1796,8 @@
     "2:20 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "From IFN Oct 2026 calendar PDF, row for Tue Nov 3 (CST). Isha 8:00 PM unchanged from DST period - may be updated in Nov calendar; Fajr iqamah is 30 min after azan."
+   "notes": "From IFN Oct 2026 calendar PDF, row for Tue Nov 3 (CST). Isha 8:00 PM unchanged from DST period - may be updated in Nov calendar; Fajr iqamah is 30 min after azan.",
+   "sect_verified": true
   },
   {
    "name": "Islamic Foundation of Southwest Suburbs (IFSWS)",
@@ -1756,7 +1822,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Coordinates estimated. Iqamah not found online (listing shows adhan only)."
+   "notes": "Coordinates estimated. Iqamah not found online (listing shows adhan only).",
+   "sect_verified": false
   },
   {
    "name": "Islamic Society of Addison",
@@ -1781,7 +1848,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Community-maintained Masjid App listing only. Coordinates estimated."
+   "notes": "Community-maintained Masjid App listing only. Coordinates estimated.",
+   "sect_verified": false
   },
   {
    "name": "Islamic Society of Midwest / Turkish American Society of Chicago",
@@ -1808,7 +1876,8 @@
     "1:15 PM"
    ],
    "times_checked": "",
-   "notes": "Same address listed for Islamic Society of Midwest and Turkish American Society of Chicago (Niagara Educational Services affiliate); women's room. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify."
+   "notes": "Same address listed for Islamic Society of Midwest and Turkish American Society of Chicago (Niagara Educational Services affiliate); women's room. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify.",
+   "sect_verified": false
   },
   {
    "name": "Islamic Society of Northwest Suburbs (ISNS)",
@@ -1836,7 +1905,8 @@
     "2:05 PM"
    ],
    "times_checked": "",
-   "notes": "Most listings give 1200 Hicks Rd; TheMasjidApp gives 3950 Industrial Ave - verify. Iqamah not posted on TheMasjidApp. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify."
+   "notes": "Most listings give 1200 Hicks Rd; TheMasjidApp gives 3950 Industrial Ave - verify. Iqamah not posted on TheMasjidApp. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify.",
+   "sect_verified": false
   },
   {
    "name": "Jamia Masjid of Chicago",
@@ -1861,7 +1931,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Iqamah not found; third-party (Kawthar/Masjidal) times looked invalid"
+   "notes": "Iqamah not found; third-party (Kawthar/Masjidal) times looked invalid",
+   "sect_verified": false
   },
   {
    "name": "Joliet Islamic Center",
@@ -1886,7 +1957,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Community-maintained Masjid App listing only. Coordinates estimated."
+   "notes": "Community-maintained Masjid App listing only. Coordinates estimated.",
+   "sect_verified": false
   },
   {
    "name": "Kaleemullah Masjid (Kaleemiah Foundation)",
@@ -1915,7 +1987,8 @@
     "3:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Rejected: undated jamaat table shows summer times (Asr 6:00 PM, Isha 9:10 PM); Jumuah 1:30/2:15/3:00 PM still listed."
+   "notes": "Rejected: undated jamaat table shows summer times (Asr 6:00 PM, Isha 9:10 PM); Jumuah 1:30/2:15/3:00 PM still listed.",
+   "sect_verified": false
   },
   {
    "name": "Lakeshore Muslim Community Center",
@@ -1940,7 +2013,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "West Ridge; Zabihah listing, no times"
+   "notes": "West Ridge; Zabihah listing, no times",
+   "sect_verified": false
   },
   {
    "name": "Light of Islam",
@@ -1965,7 +2039,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Some listings place it in Glenwood. Women's section. No times found."
+   "notes": "Some listings place it in Glenwood. Women's section. No times found.",
+   "sect_verified": false
   },
   {
    "name": "Loyola University Musalla (Baitusalaam)",
@@ -1990,7 +2065,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Rogers Park, Loyola Lake Shore campus (Mundelein Center); student-run, Jumuah during school term. No times"
+   "notes": "Rogers Park, Loyola Lake Shore campus (Mundelein Center); student-run, Jumuah during school term. No times",
+   "sect_verified": false
   },
   {
    "name": "Madani Masjid",
@@ -2017,7 +2093,8 @@
     "1:15 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Site's undated static prayer-times list (consistent with post-DST winter); Jumuah khutbah 1:15, Arabic khutbah 1:35, prayer 1:40 PM."
+   "notes": "Site's undated static prayer-times list (consistent with post-DST winter); Jumuah khutbah 1:15, Arabic khutbah 1:35, prayer 1:40 PM.",
+   "sect_verified": true
   },
   {
    "name": "Madinah Masjid",
@@ -2044,7 +2121,8 @@
     "1:40 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Homepage Jamaat table dated Nov 3, 2026; header oddly shows 19:00 near Maghrib, Isha jamaat row says 8:00 PM - verify Isha."
+   "notes": "Homepage Jamaat table dated Nov 3, 2026; header oddly shows 19:00 near Maghrib, Isha jamaat row says 8:00 PM - verify Isha.",
+   "sect_verified": true
   },
   {
    "name": "Makki Masjid",
@@ -2072,7 +2150,8 @@
     "1:45 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Albany Park; AthanPlus monthly widget, confirmed by Kawthar/Masjidal sync 11/3"
+   "notes": "Albany Park; AthanPlus monthly widget, confirmed by Kawthar/Masjidal sync 11/3",
+   "sect_verified": true
   },
   {
    "name": "Masjid Al-Amin (Jamaat Masjid Al Amin)",
@@ -2099,7 +2178,8 @@
     "1:20 PM"
    ],
    "times_checked": "",
-   "notes": "Historic African American masjid, described as one of the oldest in the US. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify."
+   "notes": "Historic African American masjid, described as one of the oldest in the US. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify.",
+   "sect_verified": false
   },
   {
    "name": "Masjid Al-Faatir",
@@ -2124,7 +2204,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Kenwood; domed mosque; iqamah/Jumuah times not found online. Women's section"
+   "notes": "Kenwood; domed mosque; iqamah/Jumuah times not found online. Women's section",
+   "sect_verified": false
   },
   {
    "name": "Masjid Al-Farooq",
@@ -2149,7 +2230,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Calumet Heights; times not read (site not reachable via tools)"
+   "notes": "Calumet Heights; times not read (site not reachable via tools)",
+   "sect_verified": false
   },
   {
    "name": "Masjid Al-Huda (Midwest Islamic Center)",
@@ -2174,7 +2256,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Monthly timetable posted only as an image (Nov 2026 link pointed to an Oct 2026 image) - could not read iqamah."
+   "notes": "Monthly timetable posted only as an image (Nov 2026 link pointed to an Oct 2026 image) - could not read iqamah.",
+   "sect_verified": false
   },
   {
    "name": "Masjid Al-Ihsan",
@@ -2202,7 +2285,8 @@
     "1:15 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Masjidal feed (masjid_id oxdN0YLV, linked from masjidihsan.org) for Nov 3 2026."
+   "notes": "Masjidal feed (masjid_id oxdN0YLV, linked from masjidihsan.org) for Nov 3 2026.",
+   "sect_verified": true
   },
   {
    "name": "Masjid Al-Istiqamah (Burbank Mosque)",
@@ -2229,7 +2313,8 @@
     "12:30 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "November 2026 monthly PDF with iqamah columns linked from alistiqamah.org, row for Tue Nov 3; Jumuah khutbah 12:30 PM."
+   "notes": "November 2026 monthly PDF with iqamah columns linked from alistiqamah.org, row for Tue Nov 3; Jumuah khutbah 12:30 PM.",
+   "sect_verified": true
   },
   {
    "name": "Masjid Al-Jameel",
@@ -2254,7 +2339,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Coordinates estimated. Iqamah not found online (listing shows adhan only)."
+   "notes": "Coordinates estimated. Iqamah not found online (listing shows adhan only).",
+   "sect_verified": false
   },
   {
    "name": "Masjid Al-Jumu'ah (MAB)",
@@ -2279,7 +2365,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Second MAB facility. Coordinates estimated. Iqamah not found online (listing shows adhan only)."
+   "notes": "Second MAB facility. Coordinates estimated. Iqamah not found online (listing shows adhan only).",
+   "sect_verified": false
   },
   {
    "name": "Masjid Al-Latif",
@@ -2304,7 +2391,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Back of the Yards; old CIOGC directory listing only, not verified recently"
+   "notes": "Back of the Yards; old CIOGC directory listing only, not verified recently",
+   "sect_verified": false
   },
   {
    "name": "Masjid Al-Mu'mineen (Masjid Mu'minun)",
@@ -2329,7 +2417,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "North Lawndale; Zabihah shows Friday-only hours from 1:00 PM; women's section"
+   "notes": "North Lawndale; Zabihah shows Friday-only hours from 1:00 PM; women's section",
+   "sect_verified": false
   },
   {
    "name": "Masjid Al-Muhajireen",
@@ -2356,7 +2445,8 @@
     "12:45 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Page dated Nov 3 2026 but rejected as stale: Fajr iqamah 6:26 AM (after sunrise) and Maghrib 5:06 PM; Jumuah khutbah 12:45/prayer 1:00 PM - verify."
+   "notes": "Page dated Nov 3 2026 but rejected as stale: Fajr iqamah 6:26 AM (after sunrise) and Maghrib 5:06 PM; Jumuah khutbah 12:45/prayer 1:00 PM - verify.",
+   "sect_verified": false
   },
   {
    "name": "Masjid Al-Mustafa",
@@ -2384,7 +2474,8 @@
     "1:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Homepage iqama times + Nov 2026 PDF (sunset 4:45 on Nov 3); Jumuah salat at 12:30 and 1:30 PM."
+   "notes": "Homepage iqama times + Nov 2026 PDF (sunset 4:45 on Nov 3); Jumuah salat at 12:30 and 1:30 PM.",
+   "sect_verified": true
   },
   {
    "name": "Masjid Al-Noor (Masjid E Noor)",
@@ -2409,7 +2500,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Edgewater/Rogers Park; also listed as North Side Mosque of Chicago. No times found"
+   "notes": "Edgewater/Rogers Park; also listed as North Side Mosque of Chicago. No times found",
+   "sect_verified": false
   },
   {
    "name": "Masjid Al-Qadir",
@@ -2434,7 +2526,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "South Shore; formerly storefront at 2312 E 75th St. No times found"
+   "notes": "South Shore; formerly storefront at 2312 E 75th St. No times found",
+   "sect_verified": false
   },
   {
    "name": "Masjid Al-Taqwa",
@@ -2461,7 +2554,8 @@
     "1:10 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "South Chicago; Imam Tariq El-Amin. Jumuah per Zabihah: 1st adhan 1:00 PM, service 1:10 PM. Older listing at 8211 S Exchange Ave"
+   "notes": "South Chicago; Imam Tariq El-Amin. Jumuah per Zabihah: 1st adhan 1:00 PM, service 1:10 PM. Older listing at 8211 S Exchange Ave",
+   "sect_verified": false
   },
   {
    "name": "Masjid As-Salam (At-Takaful South)",
@@ -2486,7 +2580,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Back of the Yards storefront masjid, 2nd-floor prayer room; Zabihah lists it as At-Takaful Islamic Society. No times"
+   "notes": "Back of the Yards storefront masjid, 2nd-floor prayer room; Zabihah lists it as At-Takaful Islamic Society. No times",
+   "sect_verified": false
   },
   {
    "name": "Masjid As-Sunnah",
@@ -2511,7 +2606,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Iqamah not posted on TheMasjidApp listing; official site not reachable."
+   "notes": "Iqamah not posted on TheMasjidApp listing; official site not reachable.",
+   "sect_verified": false
   },
   {
    "name": "Masjid At-Tawheed (Halsted)",
@@ -2538,7 +2634,8 @@
     "1:05 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Masjidbox Nov 3 iqamah is an auto-calculated adhan+5 min, with Fajr at 6:44 AM after sunrise; rejected."
+   "notes": "Masjidbox Nov 3 iqamah is an auto-calculated adhan+5 min, with Fajr at 6:44 AM after sunrise; rejected.",
+   "sect_verified": false
   },
   {
    "name": "Masjid Dar Al-Aman (American Muslim Peace Organization)",
@@ -2563,7 +2660,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "AMPO; Zabihah lists 25669 N Hillview Ct. No times found."
+   "notes": "AMPO; Zabihah lists 25669 N Hillview Ct. No times found.",
+   "sect_verified": false
   },
   {
    "name": "Masjid Darul Quran",
@@ -2588,7 +2686,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "2026-11-03",
-   "notes": "Only an October 2026 (pre-DST, Maghrib 5:47) timetable is posted; rejected as outdated (Oct rules: Dhuhr 1:15, Jumuah 1:00)."
+   "notes": "Only an October 2026 (pre-DST, Maghrib 5:47) timetable is posted; rejected as outdated (Oct rules: Dhuhr 1:15, Jumuah 1:00).",
+   "sect_verified": false
   },
   {
    "name": "Masjid Darussalam",
@@ -2616,7 +2715,8 @@
     "1:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Nov 2026 PDF iqamah set Nov 1 carried forward; Maghrib iqamah not separately listed (adhan 4:46); Jumuah address 12:00/1:00, iqamah 12:30/1:30."
+   "notes": "Nov 2026 PDF iqamah set Nov 1 carried forward; Maghrib iqamah not separately listed (adhan 4:46); Jumuah address 12:00/1:00, iqamah 12:30/1:30.",
+   "sect_verified": true
   },
   {
    "name": "Masjid Dawah",
@@ -2641,7 +2741,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "2026-11-03",
-   "notes": "Homepage still shows October (CDT) iqamah table (Asr 5:15 PM after sunset, Isha 8:30 PM); only an October 2026 PDF is posted and no November PDF exists; rejected as outdated."
+   "notes": "Homepage still shows October (CDT) iqamah table (Asr 5:15 PM after sunset, Isha 8:30 PM); only an October 2026 PDF is posted and no November PDF exists; rejected as outdated.",
+   "sect_verified": false
   },
   {
    "name": "Masjid Furqaan",
@@ -2666,7 +2767,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Masjid inside Furqaan bookstore/center. Iqamah not found online (listing shows adhan only)."
+   "notes": "Masjid inside Furqaan bookstore/center. Iqamah not found online (listing shows adhan only).",
+   "sect_verified": false
   },
   {
    "name": "Masjid Hameedia",
@@ -2691,7 +2793,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Edgewater; no times found"
+   "notes": "Edgewater; no times found",
+   "sect_verified": false
   },
   {
    "name": "Masjid Haqq (Proclaim Truth)",
@@ -2716,7 +2819,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Listed on The Masjid App; appears tied to a dawah organization - confirm regular daily prayers. Coordinates estimated."
+   "notes": "Listed on The Masjid App; appears tied to a dawah organization - confirm regular daily prayers. Coordinates estimated.",
+   "sect_verified": false
   },
   {
    "name": "Masjid Inaam (Madinatul Uloom)",
@@ -2741,7 +2845,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Former VFW hall converted to masjid/madrasa; was under construction in 2020-21, now listed as active on pray.zone. No website/times found."
+   "notes": "Former VFW hall converted to masjid/madrasa; was under construction in 2020-21, now listed as active on pray.zone. No website/times found.",
+   "sect_verified": false
   },
   {
    "name": "Masjid Rahmat-e-Alam (Western Ave) / Shariah Board of America",
@@ -2768,7 +2873,8 @@
     "1:30 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Same Mohid page as California Ave location; daily times outdated (Oct) so omitted"
+   "notes": "Same Mohid page as California Ave location; daily times outdated (Oct) so omitted",
+   "sect_verified": false
   },
   {
    "name": "Masjid Sahl",
@@ -2793,7 +2899,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Community-maintained Masjid App listing only. Coordinates estimated."
+   "notes": "Community-maintained Masjid App listing only. Coordinates estimated.",
+   "sect_verified": false
   },
   {
    "name": "Masjid Tabaq",
@@ -2818,7 +2925,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Near North/Goose Island area; no times found"
+   "notes": "Near North/Goose Island area; no times found",
+   "sect_verified": false
   },
   {
    "name": "Masjid Uthman",
@@ -2846,7 +2954,8 @@
     "1:30 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Weekly AthanPlus table on masjiduthman.org for Nov 3-9, 2026; Jumuah times listed unlabeled (12:00 PM, 1:30 PM)."
+   "notes": "Weekly AthanPlus table on masjiduthman.org for Nov 3-9, 2026; Jumuah times listed unlabeled (12:00 PM, 1:30 PM).",
+   "sect_verified": true
   },
   {
    "name": "Masjid-E-Suffah (Suffah Educational Guidance)",
@@ -2871,7 +2980,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "2026-11-03",
-   "notes": "Homepage table dated Nov 3 2026 (Begins/Iqamah); no Jumuah times posted."
+   "notes": "Homepage table dated Nov 3 2026 (Begins/Iqamah); no Jumuah times posted.",
+   "sect_verified": true
   },
   {
    "name": "Masjid-e-Abubakr (Northside Mosque, Roscoe)",
@@ -2896,7 +3006,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Lakeview; Kawthar labels this listing 'inactive' - may be closed, verify"
+   "notes": "Lakeview; Kawthar labels this listing 'inactive' - may be closed, verify",
+   "sect_verified": false
   },
   {
    "name": "Masjid-e-Ayesha (Chicago Sunni Muslim Society)",
@@ -2923,7 +3034,8 @@
     "1:45 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Also listed as Masjid e Ayesha Siddiqah; daily timetable is a Google Drive file (not read). Jumuah Urdu talk 1:15 PM, khutbah 1:45 PM"
+   "notes": "Also listed as Masjid e Ayesha Siddiqah; daily timetable is a Google Drive file (not read). Jumuah Urdu talk 1:15 PM, khutbah 1:45 PM",
+   "sect_verified": false
   },
   {
    "name": "Masjid-e-Quba",
@@ -2950,7 +3062,8 @@
     "1:00 PM"
    ],
    "times_checked": "",
-   "notes": "Zabihah: khutbah 1:00 PM, jamaat 1:20 PM. Zabihah also lists daily times (Asr 4:00, Isha 8:45) that are clearly an old summer schedule - not used."
+   "notes": "Zabihah: khutbah 1:00 PM, jamaat 1:20 PM. Zabihah also lists daily times (Asr 4:00, Isha 8:45) that are clearly an old summer schedule - not used.",
+   "sect_verified": false
   },
   {
    "name": "Masjid-e-Tahoora",
@@ -2975,7 +3088,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Only adhan times found (IslamicValley); other listings give 6526/6534 N Seeley"
+   "notes": "Only adhan times found (IslamicValley); other listings give 6526/6534 N Seeley",
+   "sect_verified": false
   },
   {
    "name": "Masjid-ul-Islam (Institute of Islamic Education)",
@@ -3003,7 +3117,8 @@
     "1:30 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Masjidal weekly table on islamicedu.org; changes to Fajr 6:00 AM and Asr 3:15 PM from Thu Nov 5."
+   "notes": "Masjidal weekly table on islamicedu.org; changes to Fajr 6:00 AM and Asr 3:15 PM from Thu Nov 5.",
+   "sect_verified": true
   },
   {
    "name": "Mosque Foundation",
@@ -3031,7 +3146,8 @@
     "1:30 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Nov 2026 AthanPlus monthly widget and MF-Prayer-time-Nov-2026.pdf agree for Nov 3; Asr iqamah becomes fixed 3:00 PM from Nov 11."
+   "notes": "Nov 2026 AthanPlus monthly widget and MF-Prayer-time-Nov-2026.pdf agree for Nov 3; Asr iqamah becomes fixed 3:00 PM from Nov 11.",
+   "sect_verified": true
   },
   {
    "name": "Mosque of Umar",
@@ -3056,7 +3172,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Roseland; old CIOGC directory listing only, not verified recently"
+   "notes": "Roseland; old CIOGC directory listing only, not verified recently",
+   "sect_verified": false
   },
   {
    "name": "Muminoon Center for Progress",
@@ -3083,7 +3200,8 @@
     "1:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "East Garfield Park; Jumuah 1 pm per Zabihah"
+   "notes": "East Garfield Park; Jumuah 1 pm per Zabihah",
+   "sect_verified": false
   },
   {
    "name": "Muslim Association of Bolingbrook (MAB) - Masjid Al-Islam",
@@ -3111,7 +3229,8 @@
     "1:10 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "MAB homepage widget dated 03 Nov; single schedule not labeled by location (assumed main masjid)."
+   "notes": "MAB homepage widget dated 03 Nov; single schedule not labeled by location (assumed main masjid).",
+   "sect_verified": true
   },
   {
    "name": "Muslim Community Center (MCC)",
@@ -3136,7 +3255,8 @@
    "maghrib_rule": "at sunset",
    "jumuah": [],
    "times_checked": "2026-11-03",
-   "notes": "Jamaat schedule posted for Nov 1-15. Jumuah times not posted on site (third-party lists 1:00/2:15 PM, unverified)"
+   "notes": "Jamaat schedule posted for Nov 1-15. Jumuah times not posted on site (third-party lists 1:00/2:15 PM, unverified)",
+   "sect_verified": false
   },
   {
    "name": "Muslim Education Center (MEC) / MCC Morton Grove",
@@ -3164,7 +3284,8 @@
     "2:15 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "MCC homepage Jamaat Timings (MEC column) for Nov 1-15; Jumuah khutbahs from Oct 30 khateeb list (iqamah 1:30/2:40) - verify."
+   "notes": "MCC homepage Jamaat Timings (MEC column) for Nov 1-15; Jumuah khutbahs from Oct 30 khateeb list (iqamah 1:30/2:40) - verify.",
+   "sect_verified": true
   },
   {
    "name": "Muslim Society Inc. (MSI) - Masjid Ibrahim",
@@ -3192,7 +3313,8 @@
     "1:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Mohid widget dated Tue Nov 3, 2026; Jumuah khutbahs 12:00 & 1:00 PM, iqamah 12:30 & 1:30 PM."
+   "notes": "Mohid widget dated Tue Nov 3, 2026; Jumuah khutbahs 12:00 & 1:00 PM, iqamah 12:30 & 1:30 PM.",
+   "sect_verified": true
   },
   {
    "name": "Nigerian Islamic Association",
@@ -3217,7 +3339,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Lakeview, by Sheridan Red Line stop; Zabihah shows Friday-only hours from 1:00 PM"
+   "notes": "Lakeview, by Sheridan Red Line stop; Zabihah shows Friday-only hours from 1:00 PM",
+   "sect_verified": false
   },
   {
    "name": "Northwest Indiana Islamic Center (NWIIC)",
@@ -3242,7 +3365,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Merrillville/Crown Point area; mosque + weekend school; women's room. Has NWIIC app. No times found."
+   "notes": "Merrillville/Crown Point area; mosque + weekend school; women's room. Has NWIIC app. No times found.",
+   "sect_verified": false
   },
   {
    "name": "Orland Park Prayer Center",
@@ -3267,7 +3391,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "2026-11-03",
-   "notes": "Site only links an October 2026 timetable (pre-DST, image PDF unreadable); no November schedule."
+   "notes": "Site only links an October 2026 timetable (pre-DST, image PDF unreadable); no November schedule.",
+   "sect_verified": false
   },
   {
    "name": "Oswego Masjid Abu Bakr",
@@ -3292,7 +3417,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Kendall County (just outside brief's counties, next to Aurora). Masjid App listing only."
+   "notes": "Kendall County (just outside brief's counties, next to Aurora). Masjid App listing only.",
+   "sect_verified": false
   },
   {
    "name": "Palos Islamic Center",
@@ -3317,7 +3443,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Email info@palosic.org. Iqamah not found online (listing shows adhan only)."
+   "notes": "Email info@palosic.org. Iqamah not found online (listing shows adhan only).",
+   "sect_verified": false
   },
   {
    "name": "Rahmah Foundation",
@@ -3344,7 +3471,8 @@
     "1:15 PM"
    ],
    "times_checked": "",
-   "notes": "Est. 2016; masjid, school, daycare, gym. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify."
+   "notes": "Est. 2016; masjid, school, daycare, gym. Jumuah time(s) taken from Zabihah listing hours, not the mosque's own site; verify.",
+   "sect_verified": false
   },
   {
    "name": "Ribat Institute",
@@ -3369,7 +3497,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Islamic institute listed as a masjid on The Masjid App; confirm regular daily jama'ah. Coordinates estimated."
+   "notes": "Islamic institute listed as a masjid on The Masjid App; confirm regular daily jama'ah. Coordinates estimated.",
+   "sect_verified": false
   },
   {
    "name": "Rohingya Culture Center",
@@ -3394,7 +3523,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "West Ridge; refugee resource center that functions as a mosque. Address from memory, verify. No times"
+   "notes": "West Ridge; refugee resource center that functions as a mosque. Address from memory, verify. No times",
+   "sect_verified": false
   },
   {
    "name": "Rumija Islamic Center",
@@ -3419,7 +3549,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Norwood Park; no times found"
+   "notes": "Norwood Park; no times found",
+   "sect_verified": false
   },
   {
    "name": "South Suburban Islamic Center of Harvey",
@@ -3444,7 +3575,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "No times found."
+   "notes": "No times found.",
+   "sect_verified": false
   },
   {
    "name": "Sri Lankan Muslim Community Center (Faizan ul Quran)",
@@ -3469,7 +3601,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "West Ridge; basement masjid. No times"
+   "notes": "West Ridge; basement masjid. No times",
+   "sect_verified": false
   },
   {
    "name": "Sufi Masjid of Chicago",
@@ -3494,7 +3627,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Unverified: found only as a food-pantry listing; tariqa, active status and regular prayers not confirmed."
+   "notes": "Unverified: found only as a food-pantry listing; tariqa, active status and regular prayers not confirmed.",
+   "sect_verified": false
   },
   {
    "name": "The Mecca Center",
@@ -3522,7 +3656,8 @@
     "1:30 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Fajr iqamah = adhan +30 min. Jumu'ah iqamah 12:30 & 1:50 PM. Monthly PDF also posted (Nov 2026 PDF row extraction looked off; homepage table used)."
+   "notes": "Fajr iqamah = adhan +30 min. Jumu'ah iqamah 12:30 & 1:50 PM. Monthly PDF also posted (Nov 2026 PDF row extraction looked off; homepage table used).",
+   "sect_verified": true
   },
   {
    "name": "Ummah Relief USA Islamic Center (Waukegan)",
@@ -3547,7 +3682,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Listed as a mosque on pray.zone; congregational prayers not confirmed."
+   "notes": "Listed as a mosque on pray.zone; congregational prayers not confirmed.",
+   "sect_verified": false
   },
   {
    "name": "Unity Islamic Center",
@@ -3572,7 +3708,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Little info; sect not stated (Sunni assumed). No times found. Site moved from luluic.org to uicmg.org."
+   "notes": "Little info; sect not stated (Sunni assumed). No times found. Site moved from luluic.org to uicmg.org.",
+   "sect_verified": false
   },
   {
    "name": "Uzbek Masjid (Uzbek American Association of Chicago)",
@@ -3597,7 +3734,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Community-maintained Masjid App listing only. Coordinates estimated."
+   "notes": "Community-maintained Masjid App listing only. Coordinates estimated.",
+   "sect_verified": false
   },
   {
    "name": "WBCC SABUR",
@@ -3622,7 +3760,8 @@
    "maghrib_rule": "",
    "jumuah": [],
    "times_checked": "",
-   "notes": "Listed as a mosque on pray.zone with little detail; sect and times unknown."
+   "notes": "Listed as a mosque on pray.zone with little detail; sect and times unknown.",
+   "sect_verified": false
   },
   {
    "name": "WBICC Dzemat (Bosnian)",
@@ -3649,7 +3788,8 @@
     "1:00 PM"
    ],
    "times_checked": "",
-   "notes": "Belmont Cragin; no times found"
+   "notes": "Belmont Cragin; no times found",
+   "sect_verified": false
   },
   {
    "name": "Worth Masjid & Islamic Center",
@@ -3676,7 +3816,8 @@
     "1:00 PM"
    ],
    "times_checked": "2026-11-03",
-   "notes": "Islamic Center of Worth's AthanPlus/Masjidal widget (embedded on worthmasjid.org) is dated Tue Nov 3 2026, and the monthly table matches it."
+   "notes": "Islamic Center of Worth's AthanPlus/Masjidal widget (embedded on worthmasjid.org) is dated Tue Nov 3 2026, and the monthly table matches it.",
+   "sect_verified": true
   }
  ]
 }
